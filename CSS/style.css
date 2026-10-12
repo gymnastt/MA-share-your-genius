@@ -24,15 +24,7 @@ p {
     text-align: center;
 }
 
-nav {
-    background-color: purple;
-    text-align: center;
-}
 
-nav a {
-    color: rgb(255, 203, 250);
-    font-size: 18px;
-}
 
 img {
     width: 350px;
@@ -62,3 +54,42 @@ a {
     text-align: left;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5f0469;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #feafff;
+}
+
+ul li a.active {
+    background-color: rgb(244, 93, 166);
+    color: pink;
+    font-weight: bold;
+    border-bottom: 3px solid #5f0469;
+}
